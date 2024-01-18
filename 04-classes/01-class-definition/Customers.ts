@@ -3,7 +3,7 @@
 class Customer {
     
     firstName: string;
-    lastName: String;
+    lastName: string;
 
     constructor(theFirst: string, theLast: string){
         this.firstName = theFirst;

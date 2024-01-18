@@ -1,4 +1,7 @@
 "use strict";
+// * run "tsc --init" to create tsconfig file.
+// *  add "noEmitOnError": true," to the file.
+// * running "tsc" will now compile all .ts files without the need of compiler flags.
 // * .ts file will notify you of errors but .js file will still be created and will still run. you must use compiler flag "--noEmitOnError". ex: tsc --noEmitOnError Customer.ts
 // * get/set accessors are public by default
 // *set accessors do not need the void return type 

@@ -17,11 +17,11 @@ class Customer {
     public set firstName(value: string) {
         this._firstName = value;
     }
-    private _lastName: String;
-    public get lastName(): String {
+    private _lastName: string;
+    public get lastName(): string {
         return this._lastName;
     }
-    public set lastName(value: String) {
+    public set lastName(value: string) {
         this._lastName = value;
     }
 
